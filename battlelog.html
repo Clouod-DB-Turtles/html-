@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>戦績画面</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        #log{
+            margin: auto;
+        }
+        #top{
+            font-size: 48px;
+        }
+        .s{
+            text-align:center;
+        }
+        body{
+	        background-color:linen;
+            background-size: cover;
+        }
+    </style>
+    <script type = text/javascript>
+        function mode(){
+        location.href = "mode.html"
+        }
+    </script>
+</head>
+<body>
+    <p id="top">戦績</p>
+    <table id="log" border="1">
+        <tr>
+            <th>通算対戦回数</th>
+            <th>3000回</th>
+        </tr>
+        <tr>
+            <th>勝利数</th>
+            <th>2715回</th>
+        </tr>
+        <tr>
+            <th>敗北数</th>
+            <th>285回</th>
+        </tr>
+        <tr>
+            <th>勝率</th>
+            <th>90.50%</th>
+        </tr>
+        <tr>
+            <th>勝率:直近10戦</th>
+            <th>100%</th>
+        </tr>
+        <tr>
+            <th>勝率:直近50戦</th>
+            <th>96.00%</th>
+        </tr>
+        <tr>
+            <th>最多使用単語</th>
+            <th>りんご</th>
+        </tr>
+        <tr>
+            <th>最多使用回数</th>
+            <th>471回</th>
+        </tr>
+
+    </table>
+    <br>
+    <div class = "s">
+        <button class="s" onclick="mode();" >モード選択画面に戻る</button>
+    </div>
+</body>
+</html>
