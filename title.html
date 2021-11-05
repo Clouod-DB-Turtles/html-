@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>しりとりバトル！</title>
+
+    <style>
+        p{
+            text-align: center;
+        }
+        #abc{
+            font-size: 48px;
+        }
+        
+        .s{
+            text-align: center;
+        }
+
+    </style>
+    <script type = text/javascript>
+        function mode(){
+            location.href = "mode.html"
+        }
+        function new_player(){
+            location.href = "new.html"
+        }
+    </script>
+</head>
+<body>
+    <p id="abc">しりとりバトル！</p><br>
+    <div class = "s">
+         <table>
+            <form action="list.html" method="get">
+                <tr>
+                    <th>
+                        ユーザID
+                    </th>
+                    <td>
+                        <input type="text" name="user_id" value="" size="10">
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        パスワード
+                    </th>
+                    <td>
+                        <input type="password" name="password" value="" size="16">
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <input type="submit" value="ログイン">
+                    </td>
+                </tr>
+            </form>
+        </table>
+        <div class = "s">
+            <button onClick="new_player();">新規登録</button>
+        </div>
+    </div>
+       
+</body>
+</html>

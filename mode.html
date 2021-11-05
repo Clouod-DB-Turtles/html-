@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>モード選択画面</title>
+    <style>
+        p{
+            text-align: center;
+        }
+        #top{
+            font-size: 48px;
+        }
+        #l{                               
+            text-align: left;
+            white-space: nowrap;
+        }
+        #r{
+            text-align: right;
+        }
+        button{
+            text-align: left;
+        }
+        .s{
+            text-align:left;
+        }
+    </style>
+    <script type= text/javascript>
+        function battlelog() {
+                location.href = "battlelog.html"
+        }
+    </script>
+</head>
+<body>
+    <p id="top">プレイするモードを選択してください</p>
+    <a id="l" href="localhost/gaido.html"><img src="a.png" alt="CPU"　title="CPU" width="45%" height="500px"></a>
+    <a id="r" href="localhost/serch.html"><img src="silhouette_human05_man.png" alt="b"　width="45%" height="500px"></a>
+    <div class = "s">
+        <button class="s" onclick="battlelog();">戦績画面に移動する</button>
+    </div>    
+    <p id="r" href="localhost/battlelog.html"> <input type="button" value="ゲームを終了する"></p>
+</html>
